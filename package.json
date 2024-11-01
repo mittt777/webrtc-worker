@@ -1,0 +1,16 @@
+{
+  "name": "webrtc-worker",
+  "scripts": {
+    "dev": "wrangler dev --port=3001",
+    "deploy": "wrangler deploy --minify"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.13.4",
+    "hono": "^4.6.8",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241022.0",
+    "wrangler": "^3.83.0"
+  }
+}
