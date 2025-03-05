@@ -59,3 +59,4 @@ const honoServer = serve(app, (info) =>
 
 // attach the socket.io server to the Hono server
 io.attach(honoServer);
+export default app
